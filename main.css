@@ -22,6 +22,71 @@ html {
   
 }
 
+
+
+@media only screen and (max-width: 1200px) { 
+.BannerText {
+  
+  margin-top: -300px;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  
+}
+
+}
+
+
+
+@media only screen and (max-width: 992px) { 
+.BannerText {
+  
+  margin-top: -250px;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+}
+
+@media only screen and (max-width: 768px) { 
+.BannerText {
+  
+  margin-top: -200px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+}
+
+
+@media only screen and (max-width: 576px) { 
+.BannerText {
+  
+  margin-top: -150px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+}
+
+@media only screen and (max-width: 430px) { 
+.BannerText {
+  
+ display: none;
+  
+}
+
+}
+
+
+
+
 .banner {
   
   filter: brightness(40%);
