@@ -11,3 +11,57 @@ html {
   background-color: #007bff
   
 }
+
+
+.BannerText {
+  
+  margin-top: -400px;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  
+}
+
+.banner {
+  
+  filter: brightness(40%);
+  
+}
+
+.ContentPane {
+  
+  margin-top: 50px;
+  font-size: 2rem;
+  padding-bottom: 50px;
+  
+  
+}
+
+
+.ContentPane h2 {
+  
+  font-size: 3rem;
+  color: #fff
+  
+}
+
+#work {
+  
+  margin-top: 50px;
+  
+}
+
+.contentBG {
+  
+  background-color: #007bff;
+}
+
+
+footer {
+  
+  margin-top: 50px;
+  background-color: #999;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
