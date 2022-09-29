@@ -12,6 +12,15 @@ html {
   
 }
 
+.card {
+  margin-bottom: 20px;
+}
+
+.card img {
+  
+   filter: brightness(40%);
+}
+
 
 .BannerText {
   
@@ -101,6 +110,32 @@ html {
   
   
 }
+
+@media only screen and (max-width: 991px) { 
+
+
+.ContentPane {
+  
+  margin-top: 50px;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+  
+  
+}
+  
+  
+  @media only screen and (max-width: 768px) { 
+
+
+.ContentPane {
+  
+  margin-top: 50px;
+  font-size: 1rem;
+  padding-bottom: 50px;
+  
+  
+}
+
 
 
 .ContentPane h2 {
