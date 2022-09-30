@@ -22,6 +22,14 @@ html {
 }
 
 
+.card img:hover {
+  
+   filter: brightness(100%);
+   transition: 0.8s;
+}
+
+
+
 .BannerText {
   
   margin-top: -400px;
