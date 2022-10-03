@@ -1,103 +1,188 @@
 @charset "utf-8";
 /* CSS Document */
 html {
-  scroll-behavior: smooth;
+ scroll-behavior: smooth;
+  
 }
+
+
 .navBG {
+  
   background-color: #007bff
+  
 }
+
 .card {
   margin-bottom: 20px;
 }
+
 .card img {
-  filter: brightness(40%);
+  
+   filter: brightness(40%);
 }
+
+
 .card img:hover {
-  filter: brightness(100%);
-  transition: 0.8s;
+  
+   filter: brightness(100%);
+   transition: 0.8s;
 }
+
+
+
 .BannerText {
+  
   margin-top: -400px;
   color: #fff;
   text-align: center;
   font-size: 3rem;
+  
 }
-@media only screen and (max-width: 1200px) {
-  .BannerText {
-    margin-top: -300px;
-    color: #fff;
-    text-align: center;
-    font-size: 3rem;
-  }
+
+
+
+@media only screen and (max-width: 1200px) { 
+.BannerText {
+  
+  margin-top: -300px;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  
 }
-@media only screen and (max-width: 992px) {
-  .BannerText {
-    margin-top: -250px;
-    color: #fff;
-    text-align: center;
-    font-size: 2rem;
-  }
+
 }
-@media only screen and (max-width: 768px) {
-  .BannerText {
-    margin-top: -200px;
-    color: #fff;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .BannerText {
-    margin-top: -150px;
-    color: #fff;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-}
-@media only screen and (max-width: 430px) {
-  .BannerText {
-    display: none;
-  }
-}
-.banner {
-  filter: brightness(40%);
-}
-.ContentPane {
-  margin-top: 50px;
+
+
+
+@media only screen and (max-width: 992px) { 
+.BannerText {
+  
+  margin-top: -250px;
+  color: #fff;
+  text-align: center;
   font-size: 2rem;
+  
+}
+
+}
+
+@media only screen and (max-width: 768px) { 
+.BannerText {
+  
+  margin-top: -200px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+}
+
+
+@media only screen and (max-width: 576px) { 
+.BannerText {
+  
+  margin-top: -150px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+}
+
+@media only screen and (max-width: 430px) { 
+.BannerText {
+  
+ display: none;
+  
+}
+
+}
+
+
+
+
+.banner {
+  
+  filter: brightness(40%);
+  
+}
+
+.ContentPane {
+  
+  margin-top: 50px;
+  font-size: 1.5rem;
   padding-bottom: 50px;
+   border-bottom:  5px solid #007bff !important;
+  
 }
-@media only screen and (max-width: 991px) {
-  .ContentPane {
-    margin-top: 50px;
-    font-size: 1.5rem;
-    padding-bottom: 50px;
-  }
+
+@media only screen and (max-width: 991px) { 
+
+
+.ContentPane {
+  
+  margin-top: 50px;
+  font-size: 1.5rem;
+  padding-bottom: 50px;
+  
+  
 }
-  @media only screen and (max-width: 768px) {
-    .ContentPane {
-      margin-top: 50px;
-      font-size: 1rem;
-      padding-bottom: 50px;
-    }
-  }
-  .ContentPane h2 {
-    font-size: 3rem;
-    color: #007bff;
-  }
-  #work {
-    margin-top: 50px;
-  }
-  .contentBG {}
-  .workBG {
-    background-color: #007bff;
-    padding: 100px
-  }
-  footer {
-    background-color: #999;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .footerspacing {
-    padding: 300px;
-  }
+}
+  
+  @media only screen and (max-width: 768px) { 
+
+
+.ContentPane {
+  
+  margin-top: 50px;
+  font-size: 1rem;
+  padding-bottom: 50px;
+  
+  
+}
+
+}
+
+.ContentPane h2 {
+  
+  font-size: 3rem;
+  color: #007bff;
+  
+}
+
+#work {
+  
+  margin-top: 50px;
+  
+}
+
+.contentBG {
+  
+
+}
+
+.workBG {
+  
+
+  padding: 100px
+  
+}
+
+
+footer {
+  
+ 
+  background-color: #FFC0CB;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+
+.footerspacing {
+  
+  padding: 300px;
+}
