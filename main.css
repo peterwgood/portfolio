@@ -118,7 +118,7 @@ body {
   
 }
 
-.ContentPane {
+.ContentPane, .skills  {
   
   margin-top: 100px;
   font-size: 1.5rem;
@@ -130,10 +130,12 @@ body {
   
 }
 
+
+
 @media only screen and (max-width: 991px) { 
 
 
-.ContentPane {
+.ContentPane, .skills  {
   
   margin-top: 50px;
   font-size: 1.5rem;
@@ -147,7 +149,7 @@ body {
   @media only screen and (max-width: 768px) { 
 
 
-.ContentPane {
+.ContentPane, skills  {
   
   margin-top: 50px;
   font-size: 1rem;
@@ -159,7 +161,7 @@ body {
 
 }
 
-.ContentPane h2 {
+.ContentPane h2, .skills h2 {
   
   font-size: 2.2rem;
   color: #007bff;
