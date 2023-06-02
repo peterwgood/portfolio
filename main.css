@@ -42,8 +42,8 @@ body {
   margin-top: -400px;
   color: #fff;
   text-align: left;
-  font-size: 2rem;
-  max-width: 50% !important;
+  font-size: 1rem;
+  
   
   
 }
@@ -56,7 +56,7 @@ body {
   margin-top: -300px;
   color: #fff;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1rem;
    max-width: unset !important;
 }
 
@@ -70,7 +70,7 @@ body {
   margin-top: -250px;
   color: #fff;
   
-  font-size: 2rem;
+  font-size: 1rem;
   max-width: unset !important;
   
 }
@@ -81,6 +81,18 @@ body {
 .BannerText {
   
   margin-top: -200px;
+  color: #fff;
+  
+  font-size: 1rem;
+  
+}
+
+}
+
+@media only screen and (max-width: 768px) { 
+.BannerText h1 {
+  
+ 
   color: #fff;
   
   font-size: 1.5rem;
@@ -96,7 +108,7 @@ body {
   margin-top: -150px;
   color: #fff;
   
-  font-size: 1.5rem;
+  font-size: 1rem;
   
 }
 
