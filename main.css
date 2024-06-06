@@ -35,6 +35,36 @@ body {
    transition: 0.8s;
 }
 
+.navbar-dark {
+  
+  background-color: #2c3e50;
+  height: 100px
+  
+}
+
+.navBG {
+  
+  background: #2c3e50;
+}
+
+
+.navbar-brand {
+  
+  font-size: 2rem !important;
+  font-weight: 700;
+  
+}
+
+.nav-item a {
+  
+  color: #fff !important;
+  font-size:  1.5rem !important;
+}
+
+.nav-item a:hover {
+  
+  color: #1abc9c !important;
+}
 
 
 .BannerText {
