@@ -12,6 +12,12 @@ body {
   
 }
 
+.contentBG {
+  
+  background-color: #1abc9c;
+  color: #fff !important;
+}
+
 
 .navBG {
   
@@ -219,7 +225,7 @@ body {
 .ContentPane h2, .skills h2 {
   
   font-size: 2.2rem;
-  color: darkblue;
+  color: white;
   padding-bottom: 10px;
   
 }
@@ -282,4 +288,15 @@ footer a {
 .footerspacing {
   
   
+}
+
+.navbar.scrolled {
+  height: 50px; /* reduce navbar height */
+  padding: 10px 0; /* reduce padding */
+}
+.navbar.scrolled .navbar-brand {
+  font-size: 18px; /* reduce logo font size (optional) */
+}
+.navbar.scrolled .nav-link {
+  padding: 10px 20px; /* reduce link padding (optional) */
 }

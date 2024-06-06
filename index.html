@@ -32,27 +32,10 @@
 <div class="contentBG" id="Who">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 ContentPane" >
-        <h2>Who I am</h2>
+      <div class="col ContentPane" >
+        <h2 class="text-center">ABOUT</h2>
         <p>Hi there! I'm Peter Good, a web developer with over 10 years of experience. I'm a proud resident of Knoxville, Tennessee, where I live with my wife and two children.</p>
-        <p>In addition to my professional experience, I have received a solid education in the field, earning a degree in web development from St. Petersburg College. During my time at St. Petersburg College, I gained a strong understanding of web development principles and was able to apply this knowledge through various projects and coursework.</p>
-        <p> If you're looking for a web developer to help you establish an online presence or to take your existing website to the next level, I'm your guy. I have the skills and experience you need to achieve your goals. Get in touch with me today to learn more about how I can help!</p>
-      </div>
-      <div class="col-md-5 skills" >
-        <h2>My Skills</h2>
-        <ul type="disc">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Javascript</li>
-          <li>Web Design</li>
-          <li>Graphic design (Photoshop)</li>
-          <li>Bootstrap framework</li>
-          <li>Accessibility Evaluation – WCAG 2.1</li>
-         <li>WordPress</li>
-          <li>Dot Net Nuke CMS</li>
-          <li>Google Analytics</li>
-          <li>GitHub</li>
-        </ul>
+<p>I received my formal education in Web Development at St. Pete College in Florida, which provided a solid foundation for my career. I'm a versatile web developer with expertise in a range of technologies, including HTML5, CSS, and Javascript. I'm also skilled in web design, graphic design (with proficiency in Photoshop), and the Bootstrap framework. Additionally, I have experience with accessibility evaluation (WCAG 2.1), content management systems like WordPress and Dot Net Nuke CMS, analytics tools like Google Analytics, and version control systems like GitHub.</p>
       </div>
     </div>
   </div>
@@ -98,5 +81,14 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+	<script>const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) { /* adjust the scroll position as needed */
+    navbar.classList.add('scrolled');
+  } else {
+    navbar.classList.remove('scrolled');
+  }
+});</script>
 </body>
 </html>
