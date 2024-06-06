@@ -250,7 +250,17 @@ body {
 
 
 
+.contactForm {
+  
+  background-color: #1abc9c;
+  padding: 40px;
+  
+}
 
+.btn-success {
+  
+  background-color: #1abc9c !important;
+}
 
 
 .contentBG {
