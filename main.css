@@ -12,21 +12,8 @@ body {
   
 }
 
-.contentBG {
-  
-  background-color: #fff;
-  color: #333 !important;
-}
 
-.ContentPane h2 {
-  
-  font-size: 3.2rem;
-  color: #333 !important;;
-  padding-bottom: 20px;
-  font-weight: 700;
-  
-  
-}
+
 
 
 
@@ -39,20 +26,13 @@ body {
 }
 
 .card {
-  margin-bottom: 40px;
-}
-
-.card img {
-  
-
+  margin-bottom: 10px;
 }
 
 
-.card img:hover {
-  
-   filter: brightness(100%);
-   transition: 0.8s;
-}
+
+
+
 
 .navbar-dark {
   
@@ -104,9 +84,6 @@ body {
   
 }
 
-#contact {
-  /* padding-top: 40px !important; */
-}
 
 
 
@@ -192,170 +169,49 @@ body {
   
 }
 
-.ContentPane, .skills  {
+.card {
   
-  margin-top: 100px;
-  font-size: 1.5rem;
-  padding-bottom: 100px;
-   border-bottom:  1px solid  #999!important;
-  font-family: 'Open Sans', sans-serif;
-   
-  
-  
-}
-
-.ContentPane  {
-  
-  margin-top: 50px;
-  font-size: 1.5rem;
-  padding-bottom: 50px;
-  padding-top: 40px !important;
-  
-  
-}
-
-@media only screen and (max-width: 991px) { 
-
-
-.ContentPane, .skills  {
-  
-  margin-top: 50px;
-  font-size: 1rem;
-  padding-bottom: 50px;
-  
-  
-  
-}
-}
-  
-  @media only screen and (max-width: 768px) { 
-
-
-
-
-}
-
-.ContentPane h2, .skills h2 {
-  
-  font-size: 2.2rem;
-  color: white;
-  padding-bottom: 10px;
-  
-}
-
-#work {
-  
-  margin-top: 50px;
-  color: #fff;
-  font-size: 1.3rem;
-  background-color: #fff
-  
-  
-  
-}
-
-#work h2 {
-  
-  font-size: 3.2rem;
-  color: #333;
-
-  font-weight: 700;
-  
+   filter: grayscale(100%);
 }
 
 
-.contactForm h2 {
+.card:hover {
   
-  
-  font-size: 3.2rem;
-color: #333 !important;;
-  padding-bottom: 20px;
-  font-weight: 700;
+   filter: grayscale(0%);
 }
 
 
-.contactForm {
   
-  background-color: #fff;
-  padding: 40px;
-  max-width: 50%;
-  margin: 0 auto;
-  border: 1px solid #999; 
-  border-radius: 25px;
-  margin-bottom: 20px
-  
+  .PortfolioBG h2, .AboutBG h2 {
+  text-align: center !important;
+  margin: 50px auto;
+  text-decoration: none;
+  border-bottom: 5px solid green;
+  max-width: 500px;
 }
-
-.btn-success {
-  
-  background-color: #1abc9c !important;
-}
-
-
-.contentBG {
   
 
-  color: #666
-}
 
-.workBG {
-  
 
-  padding: 10px;
-  
-/*! background-color: black; */
-  padding-bottom: 100px
-  
-}
 
-.form-floating input.form-control,
-.form-floating textarea.form-control {
-  font-size: 1.5rem;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-  border-radius: 0;
-  border-width: 1px;
-}
-.form-floating input.form-control:focus,
-.form-floating textarea.form-control:focus {
-  box-shadow: none;
-}
-.form-floating label {
-  font-size: 1.5rem;
-  color: #6c757d;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 footer {
   
-    background-color:  black ;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #000;
-  
+  background-color: #000;
+  padding: 20px;
 }
 
-footer a {
-  
-  color: #fff
-}
-
-
-.footerspacing {
-  
-  
-}
-
-.navbar.scrolled {
-  height: 50px; /* reduce navbar height */
-  padding: 10px 0; /* reduce padding */
-}
-.navbar.scrolled .navbar-brand {
-  font-size: 18px; /* reduce logo font size (optional) */
-}
-.navbar.scrolled .nav-link {
-  padding: 10px 20px; /* reduce link padding (optional) */
-}
