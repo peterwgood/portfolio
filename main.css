@@ -7,7 +7,10 @@ html {
 
 body {
   
-  font-family: 'Open Sans', sans-serif !important;
+   font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+    
+    font-weight: 700;
   color: #666 !important;
   
 }
@@ -15,13 +18,25 @@ body {
 
 
 
-
+.AboutBG {
+  
+  
+   font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+    
+    font-weight: 700;
+  font-size: 1.5rem
+}
 
 
 
 .navBG {
   
   background-color: #6c757d;
+   font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+    
+    font-weight: 700;
   
 }
 
@@ -51,6 +66,10 @@ body {
   
   font-size: 2rem !important;
   font-weight: 700;
+   font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+    
+  
   
 }
 
@@ -70,6 +89,10 @@ body {
   
   font-size: 3rem;
   font-weight: 700;
+   font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+    
+    font-weight: 700;
 }
 
 
@@ -80,7 +103,11 @@ body {
    background-color: pink;
   font-size: 2.5rem;
   z-index: 10;
-  padding-top: 10px
+  padding-top: 10px;
+   font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+    
+    font-weight: 700;
   
   
 }
@@ -191,6 +218,10 @@ body {
   border-bottom: 5px solid pink;
   max-width: 500px;
     color: #000;
+     font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+    
+    font-weight: 700;
 }
   
 
